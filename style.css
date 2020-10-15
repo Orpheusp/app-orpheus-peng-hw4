@@ -1,11 +1,11 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
 .form {
-  background-color: bisque;
-  border: blue solid 0.375rem;
+  background-color: #FFECD7;
+  border: #0C59CF solid 0.375rem;
   border-radius: 1rem;
   height: 22rem;
   margin-left: auto;
@@ -22,8 +22,8 @@ body {
 }
 
 .input-label {
-  color: blue;
-  margin-right: 0.5rem;
+  color: #0C59CF;
+  margin-right: 0.25rem;
   text-align: right;
   width: 10rem;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .input-row > input {
-  border: green solid 1px;
+  border: #497532 solid 1px;
   border-radius: 2px;
   width: 13rem;
 }
@@ -46,9 +46,9 @@ body {
 }
 
 .input-row > button {
-  background-color: blue;
+  background-color: #0C59CF;
   border: none;
-  border-radius: 2px;
+  border-radius: 0.25rem;
   color: white;
   margin-left:10.75rem;
   padding: 0.125rem;
