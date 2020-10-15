@@ -19,14 +19,6 @@ function getErrorEl() {
   return emptyInput;
 }
 
-function clearInputs() {
-  const inputs = Array.from(getInputEls());
-
-  inputs.forEach((input) => {
-    input.value = '';
-  });
-}
-
 function showSuccessMessage() {
   const messageEl = getMessageEl();
   messageEl.innerText = 'Validation successful';
@@ -46,7 +38,6 @@ function submit(e) {
 
   if (errorEl) {
     showErrorMessage(errorEl);
-    clearInputs();
   } else {
     showSuccessMessage();
   }
